@@ -11,7 +11,7 @@ app.use(express.static('public'));
 
 // Route to serve index.html
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Route to serve notes.html
